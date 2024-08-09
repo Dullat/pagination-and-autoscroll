@@ -10,12 +10,9 @@ import Home from "./Home"
 const App = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path="/pagination-and-autoscroll">
+      <Route path="/">
         <Route index element={<Home></Home>} />
-        <Route
-          path="/pagination-and-autoscroll/pagination"
-          element={<Pagination></Pagination>}
-        />
+        <Route path="/pagination" element={<Pagination></Pagination>} />
       </Route>
     )
   )
