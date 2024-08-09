@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div>
       <Link
-        to="/pagination"
+        to="/pagination-and-autoscroll/pagination"
         className="text-3xl text-blue-600 underline my-8 block"
       >
         pagination
